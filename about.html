@@ -1,18 +1,267 @@
 <!DOCTYPE html>
 <html>  
     <head>
-        <a href="http://127.0.0.1:5501/index.html" > <img src="Imagenes\Logo.png"> </a>
-        <a href="http://127.0.0.1:5501/about.html" >About us  </a>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            #menu{
+
+                
+                width: 100%;
+                height: 120px;
+                background-color: white;
         
-        <a href="http://127.0.0.1:5501/contact.html" >Contact  </a>
+                top:0;
+
+            }
+
+            #menu ul{
+                list-style-type: none;
+                margin:0;
+                padding:0;
+                top: 100%;
+                
+            }
+
+            #menu a{
+                color: black;
+                text-decoration: none;
+                padding:12px;
+                background-color: grey;
+                text-align: center;
+                
+                
+            }
+
+ 
+
+            #menu li{
+                padding: 10px;
+                display: inline-block;
+                float: right;
+                
+                
+            }
+
+            #menu img{
+               height: 100%;
+               display:inline-block;
+               width: auto;
+            }
+
+
+
+
+            .insideFastFacts{
+                margin: 20px;
+                display: inline-block;
+                background-color: antiquewhite;
+                width: 200px;
+                height: 200px;
+                border-radius: 20%;
+                text-align: center;
+                vertical-align: top;
+            }
+
+            .insideFastFacts h3{
+                padding: 20px;
+                font-size: 35px;
+            }
+            .header{
+                width: 100%;
+                height: 80px;
+                
+                text-align: center;
+
+            }
+
+            .aboutUs{
+                padding: 20px;
+
+            }
+
+            .fastFacts{
+                width: 100%;
+                background-color: rgba(214, 205, 205, 0.829);
+                margin-bottom:10px ;
+            }
+
+            .fastFacts h2{
+                margin-left:200px ;
+                font-size: 35px;
+            }
+  
+
+            #ImgPrinc img{
+                width: 100%;
+                height: auto;
+            }
+
+            #texto{
+                margin-left: 200px;
+                margin-right: 200px;
+                text-align: left;
+            }
+
+            .secondaryP{
+                
+                font-size: 12px;
+                text-align: left;
+                margin-top: 45px;
+                margin-left: 10px;
+            }
+
+            .founders{
+                width: 100%;
+                background-color: rgba(214, 205, 205, 0.829);
+                ;
+            }
+
+            .founders h2{
+                margin-left:200px ;
+                font-size: 35px;
+            }
+
+            .insideFounders{
+                display: inline-block;
+                margin: 40px;
+                height: 350px;
+                width: 350px;
+
+                vertical-align: top;
+  
+            }
+
+            .insideFounders img{
+                border-radius: 15px;
+            }
+ 
+
+
+
+        </style>
+   
+
         
     </head>
 
     <body>
 
-        <img src="Imagenes\Imagen1.PNG">
-        <h1>About us</h1>
-        <a>empiezo a escribir las cosas del about you</a>
+ 
+
+        
+
+        <div id="menu"><img src="Imagenes\airbnb-iso.svg">
+
+            <ul>
+                <li><a href="http://127.0.0.1:5501/about.html">About us</a></li>
+                <li><a href="http://127.0.0.1:5501/contact.html">Contact</a></li>  
+                
+                
+              </ul>
+
+        
+        </div>
+
+        <div id="ImgPrinc">
+            <img src="Imagenes\Imagen1.PNG" alt="No se ve" >
+        </div>
+
+
+        <div class="aboutUs">
+            <div>
+                <header class="header">
+                    <h2>About us</h2>
+                </header>
+            </div>
+            <div id="texto">
+        <p>Airbnb was born in 2007 when two Hosts welcomed three guests to their San Francisco home, 
+            and has since grown to 4 million Hosts who have welcomed more than 1 billion 
+            guest arrivals in almost every country across the globe. 
+            Every day, Hosts offer unique stays and one-of-a-kind activities that make it 
+            possible for guests to experience the world in a more authentic, connected way</p>
+            </div>
+
+        </div>
+
+            <div class="fastFacts">
+                <h2>Fast facts</h2>
+                
+                <div class="insideFastFacts">
+                    <h3>5.6Million</h3>
+                    <p>Airbnb listings worldwide</p>
+                    <p class="secondaryP">as of june 30, 2021</p>
+
+
+                </div>
+                <div class="insideFastFacts">
+                    <h3>100k</h3>
+                    <p>cities and towns with active Airbnb listings</p>
+                    <p class="secondaryP">as of September 20,2021</p>
+
+                </div>
+                <div class="insideFastFacts">
+                    <h3>220+</h3>
+                    <p>countries and regions with Airbnb listings</p>
+                    <p class="secondaryP">as of June 30, 2021</p>
+
+                </div>
+                <div class="insideFastFacts">
+                    <h3>1B+</h3>
+                    <p>Airbnb guest arrivals all-time</p>
+                    <p class="secondaryP">as of September 20,2021</p>
+
+                </div>
+                <div class="insideFastFacts">
+                    <h3>4M+</h3>
+                    <p>Hosts on Airbnb</p>
+                    <p class="secondaryP">as of June 30, 2021</p>
+
+                </div>
+                <div class="insideFastFacts">
+                    <h3>$110B+</h3>
+                    <p>earned by Hosts, all-time</p>
+                    <p class="secondaryP">as of October, 202</p>
+
+                </div>
+                <div class="insideFastFacts">
+                    <h3>$9.6K</h3>
+                    <p>average annual earnings per Host</p>
+                    <p class="secondaryP">as of April 30, 2021</p>
+
+                </div>
+
+        </div>
+
+        <div class="founders">
+            <h2>Founders</h2>
+
+            <div class="insideFounders">
+                <img src="Imagenes\founder1.PNG">
+                <p>Brian Chesky</p>
+                <p>Co-founder and Chief Executive Officer</p>
+
+            </div>
+
+            <div class="insideFounders">
+                <img src="Imagenes\founder2.PNG">
+                <p>Nathan Blecharczyk</p>
+                <p>Co-founder, Chief Strategy Officer, Chairman of Airbnb China</p>
+
+            </div>
+
+            <div class="insideFounders">
+                <img src="Imagenes\founder3.PNG">
+                <p>Joe Gebbia</p>
+                <p>Co-founder, Chairman of Samara and Airbnb.org</p>
+
+            </div>
+
+        </div>
     </body>
 
 
